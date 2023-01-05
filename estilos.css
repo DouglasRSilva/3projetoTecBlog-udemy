@@ -22,10 +22,41 @@ a:hover{
     background-color: white;
     color:rgb(209, 209, 36);
 }
-#conteudo{
+.conteudo{
     margin-top: 10px;
+    margin-left: 100px;
     border: 1px solid red;
     background-color: white;
-    width: 700px;
-    height: 800px;
+    width: 670px;
+    height: auto;
+    float: left;
+}
+#postagem{
+    margin-top: 10px;
+    border: 1px solid red;
+    width: 300px;
+    right: 300px;
+    background: white;
+    float: right;
+    position: relative;
+    top: 250px;
+}
+#categoria{
+    margin-top: 10px;
+    border: 1px solid red;
+    width: 300px;
+    right: 300px;
+    background: white;
+    float: right;
+}
+img{
+    padding: 15px;
+}
+.rodape{
+    border: 1px solid red;
+    margin-left: 100px;
+    clear: both;
+    position: relative;
+    width: 1000px;
+    top: 10px;
 }
