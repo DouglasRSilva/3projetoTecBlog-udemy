@@ -1,8 +1,7 @@
 body{
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(212, 212, 212);
 }
 #nav-bar{
-    border: 1px solid red;
     background-color: rgb(209, 209, 36);
     text-align: center;
     padding: 25px;
@@ -22,41 +21,52 @@ a:hover{
     background-color: white;
     color:rgb(209, 209, 36);
 }
-.conteudo{
-    margin-top: 10px;
-    margin-left: 100px;
-    border: 1px solid red;
-    background-color: white;
-    width: 670px;
-    height: auto;
-    float: left;
-}
-#postagem{
-    margin-top: 10px;
-    border: 1px solid red;
-    width: 300px;
-    right: 300px;
-    background: white;
-    float: right;
-    position: relative;
-    top: 250px;
-}
-#categoria{
-    margin-top: 10px;
-    border: 1px solid red;
-    width: 300px;
-    right: 300px;
-    background: white;
-    float: right;
-}
 img{
     padding: 15px;
 }
-.rodape{
-    border: 1px solid red;
-    margin-left: 100px;
+.conteudo{
+    margin-top: 10px;
+    background-color: white;
+    width: 670px;
+    float: left;
     clear: both;
-    position: relative;
-    width: 1000px;
-    top: 10px;
+    margin-left: 100px;
+}
+#postagem{
+    width: 300px;
+    background: white;
+    float: right;
+    margin-top: -680px;
+    margin-right: 300px;
+}
+#categoria{
+    width: 300px;
+    right: 200px;
+    background: white;
+    float: right;
+    clear: both;
+    margin-top: -1060px;
+    margin-right: 300px;
+}
+.rodape{
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: grey;
+}
+.subtitulos{
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}
+.titulos{
+    color: yellow;
+}
+p{
+    padding: 10px
+}
+.linksconteudo{
+    color: yellow;
+    hover
 }
