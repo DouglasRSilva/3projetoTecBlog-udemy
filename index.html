@@ -4,67 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecBlog - o Seu Blog de Tecnologia</title>
     <link rel="stylesheet" type="text/css" href="estilos.css">
-    <title>Home - TecBlog</title>
 </head>
 <body>
-    <div class="medidas">
-        <!--Barra de navegação-->
-        <div id="nav-bar">
-            <!--Logo do blog-->
-            <div>
-                <h1><span class="tec">Tec</span><Span class="blog">Blog</Span></h1>
-            </div>
-            <!--Menu de navegação-->
-            <div id="menu">
-                <a href="index.html">Home</a>
-                <a href="jogos.html">Jogos</a>
-                <a href="celulares.html">Celulares</a>
-                <a href="informatica.html">Informática</a>
-                <a href="eletronicos.html">Eletrônicos</a>
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1>Tec<span class="branco">Blog</span></h1>
+        </div>
+        <div id="area-menu">
+            <a href="index.html">Home</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="celulares.html">Celulares</a>
+            <a href="informatica.html">Informática</a>
+            <a href="eletronicos.html">Eletrônicos</a>
+        </div>
+    </div>
+
+    <div id="area-principal">
+        <div id="area-postagens">
+            <!--abertura de postagem-->
+            <div class="postagem">
+                <h2>Titulo da postagem 1</h2>
+                <span class="data-postagem">postado 20 março 2022</span>
+                <img width="620px" src="imagens/imagem1.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi harum voluptatum, quas reprehenderit soluta praesentium, eum a nihil recusandae quidem aliquam, quod fugiat cumque!
+                </p>
+                <a href="">Leia mais</a>
+            </div><!--**fechamento de postagem-->
+
+             <!--abertura de postagem-->
+            <div class="postagem">
+                <h2>Titulo da postagem 2</h2>
+                <span class="data-postagem">postado 10 março 2022</span>
+                <img width="620px" src="imagens/imagem2.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi harum voluptatum, quas reprehenderit soluta praesentium, eum a nihil recusandae quidem aliquam, quod fugiat cumque!
+                </p>
+                <a href="">Leia mais</a>
+            </div><!--**fechamento de postagem-->
+        </div>
+        <div id="area-lateral">
+            <div class="conteudo-lateral">
+                <h3>Postagens recentes</h3>
+                <div class="postagem-lateral">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="">Leia mais</a>
+                </div>
+                <div class="postagem-lateral">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="">Leia mais</a>
+                </div>
             </div>
         </div>
-        <div>
-            <div class="conteudo">
-                <h1 class="titulos">Titulo da postagem 1</h1>
-                <p>postado 20 março 2022</p>
-                <img src="imagens/imagem1.jpg" alt="">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                </p>
-                <a class="linksconteudo" href="index.html">Leia mais</a>
+        <div id="area-lateral">
+            <div class="conteudo-lateral">
+                <h3>Categorias</h3>
+                <a href="">Jogos</a> <br>
+                <a href="">Celulares</a> <br>
+                <a href="">Informática</a> <br>
+                <a href="">Eletrônicos</a>
             </div>
-            <div class="conteudo">
-                <h1 class="titulos">Titulo da postagem 2</h1>
-                <p>postado 10 março 2022</p>
-                <img src="imagens/imagem2.jpg" alt="">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                </p>
-                <a class="linksconteudo" href="index.html">Leia mais</a>
-            </div>
-            <div id="postagem">
-                <h1 class="subtitulos">Postagens recentes</h1>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-                    <a class="linksconteudo" href="index.html">Leia mais</a>
-                </div>
-                <hr>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a class="linksconteudo" href="index.html">Leia mais</a>
-                </div>
-            </div>
-            <div id="categoria">
-                <h1 class="subtitulos">Categorias</h1>
-                <a href="index.html">Home</a> <br>
-                <a href="jogos.html">Jogos</a> <br>
-                <a href="celulares.html">Celulares</a> <br>
-                <a href="informatica.html">Informática</a> <br>
-                <a href="eletronicos.html">Eletrônicos</a>
-            </div>
-        <div class="rodape">
-            <h5>Todos os direitos reservados</h5>
+        </div>
+        <div id="rodape">
+            Todos os direitos reservados
         </div>
     </div>
 </body>
